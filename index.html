@@ -15,6 +15,7 @@
             <button onclick="openWindow('notes')">Notes</button>
             <button onclick="openWindow('about')">About</button>
             <button onclick="openWindow('calculator')">Calculator</button>
+            <button onclick="openWindow('clock')">Clock</button>
         </div>
 
         <div class="window" id="notes">
@@ -32,13 +33,17 @@
                 <button onclick="closeWindow('about')">X</button>
             </div>
 
-            <p>
-                This is my WebOS project for WebOS 1.
-            </p>
+            <p>This is my WebOS project for WebOS 1.</p>
+            <p>I made this using HTML, CSS and JavaScript.</p>
+        </div>
 
-            <p>
-                I made this using HTML, CSS and JavaScript.
-            </p>
+        <div class="window" id="clock">
+        <div class="bar">
+        <span>Clock</span>
+        <button onclick="closeWindow('clock')">X</button>
+        </div>
+
+        <h2 id="time"></h2>
         </div>
 
         <div class="window" id="calculator">
