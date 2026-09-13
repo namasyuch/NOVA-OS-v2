@@ -88,3 +88,17 @@ calculatorBar.onmousedown = function(event) {
         document.onmousemove = null;
     };
 };
+
+function updateTime() {
+    let now = new Date();
+
+    let hours = now.getHours();
+    let minutes = now.getMinutes();
+    let seconds = now.getSeconds();
+
+    document.getElementById("time").innerHTML =
+        hours + ":" + minutes + ":" + seconds;
+}
+
+updateTime();
+setInterval(updateTime, 1000);
