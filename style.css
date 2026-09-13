@@ -5,16 +5,22 @@ body {
 
 .desktop {
     height: 100vh;
-    background: #e8e8e8;
+    background-image: url("download (1).jpeg");
+    background-size: cover;
+    background-position: center;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 h1 {
-    font-size: 24px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
 }
 
 .apps {
     display: flex;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -65,7 +71,7 @@ textarea {
     padding: 5px;
 }
 
-#calculator > button {
-    margin: 0 10px 10px;
+#calculator button {
+    margin: 5px;
     padding: 6px 12px;
 }
