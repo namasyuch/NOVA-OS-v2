@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NOVA OS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="desktop">
+
+        <h1>NOVA OS</h1>
+
+        <div class="apps">
+            <button onclick="openWindow('notes')">Notes</button>
+            <button onclick="openWindow('about')">About</button>
+            <button onclick="openWindow('calculator')">Calculator</button>
+        </div>
+
+        <div class="window" id="notes">
+            <div class="bar">
+                <span>Notes</span>
+                <button onclick="closeWindow('notes')">X</button>
+            </div>
+
+            <textarea placeholder="Write your notes here..."></textarea>
+        </div>
+
+        <div class="window" id="about">
+            <div class="bar">
+                <span>About</span>
+                <button onclick="closeWindow('about')">X</button>
+            </div>
+
+            <p>
+                This is my WebOS project for WebOS 1.
+            </p>
+
+            <p>
+                I made this using HTML, CSS and JavaScript.
+            </p>
+        </div>
+
+        <div class="window" id="calculator">
+            <div class="bar">
+                <span>Calculator</span>
+                <button onclick="closeWindow('calculator')">X</button>
+            </div>
+
+            <input id="number1" type="number">
+            <input id="number2" type="number">
+
+            <div>
+                <button onclick="addNumbers()">+</button>
+                <button onclick="subtractNumbers()">-</button>
+                <button onclick="multiplyNumbers()">*</button>
+                <button onclick="divideNumbers()">/</button>
+            </div>
+
+            <p id="answer"></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

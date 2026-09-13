@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.desktop {
+    height: 100vh;
+    background: #e8e8e8;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.apps {
+    display: flex;
+    gap: 10px;
+}
+
+.apps button {
+    padding: 10px;
+    background: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.window {
+    display: none;
+    position: absolute;
+    width: 300px;
+    background: white;
+    border: 1px solid black;
+}
+
+.bar {
+    background: #333;
+    color: white;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar button {
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+
+.window p {
+    padding: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px;
+}
+
+#calculator input {
+    margin: 10px 5px;
+    width: 120px;
+    padding: 5px;
+}
+
+#calculator > button {
+    margin: 0 10px 10px;
+    padding: 6px 12px;
+}
