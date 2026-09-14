@@ -2,6 +2,9 @@
 NOVA OS is my WebOS 1 project.
 I made it from scratch using HTML, CSS and JavaScript.
 
+## Live Demo
+https://namasyuch.github.io/NOVA-OS-v2/
+
 ## Features
 * Full-screen desktop background
 * Notes app
@@ -23,4 +26,4 @@ I'm proud that I rebuilt the project from scratch and got the main features work
 ## Testing
 I tested the apps, buttons, calculator, clock and window dragging.
 
-## Built with : HTML , CSS , JavaScript
+It was built with HTML , CSS , JavaScript
